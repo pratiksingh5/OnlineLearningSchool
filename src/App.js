@@ -1,24 +1,44 @@
-import logo from './logo.svg';
-import './App.css';
+import {React,useState} from "react";
+import { Container, Row, Col } from "react-bootstrap";
+import { BrowserRouter as Router, Route } from "react-router-dom";
+import items from './Data';
+import "./App.css";
+import Header from "./Components/Header";
+import Profile from "./Components/Profile";
+import Button from "./Components/Button";
+import Course from "./Components/Course";
+
+
+import Footer from "./Components/Footer";
+import Courses from "./Pages/Courses";
+
 
 function App() {
+ 
+ 
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Container className="p-0 back" fluid={true}>
+      <Row>
+        <Col xs={2}></Col>
+        <Col xs={8} className="p-0">
+          <Router>
+            <Header />
+            <Row className="mt-4">
+              <Col  lg={3} xs={12}>
+                <Profile/>
+              </Col>
+              <Col lg={9} xs={12} >
+               <Courses/>
+              </Col>
+            </Row>
+            <Row className="mt-4">
+            <Footer/>
+            </Row>
+          </Router>
+        </Col>
+        <Col xs={2}></Col>
+      </Row>
+    </Container>
   );
 }
 

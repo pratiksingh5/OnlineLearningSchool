@@ -1,38 +1,127 @@
-.App {
-  text-align: center;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    font-size: 16px;
+}
+.back{
+    background-color: #f4f4f4;
+}
+.nav{
+    border-radius: 5px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.links a{
+text-decoration: none;
+color: black;
+margin-right: 1rem;
+}
+.profilepic{
+    width: 130px;
+    height: 130px;
+    background-image: url('https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80');
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+}
+.profile{
+    text-align: center;
+    padding: 2rem 0.5rem;
+    background-color: white;
+    border-radius: 5px;
+}
+.profile ul{
+    text-align: left;
+    margin: 2rem 0;
+}
+.logo{
+    font-weight: 800;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.button{
+    padding: 3px 25px;
+    border-radius: 5px;
+    border: none;
+    margin: 0 1rem;
+    font-size: 14px;
+    background-color: rgb(57, 202, 89);
+}
+.footer{
+    height: 8vh;
+    width: 100%;
+    background-color: rgb(61, 61, 61);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.pages{
+    background-color: white;
+    border-radius: 5px;
+    padding: 5%;
 }
 
-.App-link {
-  color: #61dafb;
+
+
+.buttons{
+    width: 100%;
+    margin: 3rem auto;
+   font-weight: 600;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+
+.btn:hover{
+    background-color: #154779;
+    cursor: pointer;
+}
+
+.btn:active, .btn:focus{
+    outline: none;
+    border: none;
+}
+
+
+
+.item{
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 6rem;
+}
+
+.item-container{
+    overflow: hidden;
+}
+
+.item-con{
+    width: 210px;
+    padding: 1.2rem 1.2rem;
+    background-color: #ffffff;
+    
+}
+
+.item-container > img{
+    width: 100%;
+}
+
+.item-con h2{
+    font-size: 1rem;
+}
+.item-con p{
+    font-size: 0.6rem;
+}
+
+.enrollbtn{
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+    font-size: 12px;
 }
