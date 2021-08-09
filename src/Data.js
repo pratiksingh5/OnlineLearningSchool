@@ -1,50 +1,52 @@
-import blog1 from './images/web.jpg';
-import blog2 from './images/app.jpg';
-import blog3 from './images/ai.jpg';
-import blog4 from './images/3d.jpg';
+import web1 from './images/web1.jpg';
+import web2 from './images/web2.jpg';
+import web3 from './images/web3.png';
+import app1 from './images/app1.png';
+import ai1 from './images/ai1.png';
+import ai2 from './images/ai2.jpg';
 
 
 
 export default [
     {
         id:1,
-        image: blog1,
-        title: 'Tips and tricks to write good code',
+        image: web1,
+        title: 'Fontend Development with HTML,CSS, JavaScript & Bootstrap',
         category: 'Web',
         description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque ea, ab aperiam necessitatibus adipisci sunt facilis itaque non enim est!'
     },
     {
         id:2,
-        image: blog2,
-        title: 'How to use Search Engine Optimisation',
-        category: 'App',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque ea, ab aperiam necessitatibus adipisci sunt facilis itaque non enim est!'
-    },
-    {
-        id:3,
-        image: blog3,
-        title: '10 Tricks and Tips in Python',
-        category: 'AI',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque ea, ab aperiam necessitatibus adipisci sunt facilis itaque non enim est!'
-    },
-    {
-        id:4,
-        image: blog4,
-        title: 'How to transition from Unreal Engine to Unity in simple steps',
+        image: web2,
+        title: 'Backend Development with NodeJs',
         category: 'Web',
         description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque ea, ab aperiam necessitatibus adipisci sunt facilis itaque non enim est!'
     },
     {
-        id:5,
-        image: blog4,
-        title: 'I think Fortnite is dead',
+        id:3,
+        image: web3,
+        title: 'Complete Fullstack Development',
+        category: 'Web',
+        description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque ea, ab aperiam necessitatibus adipisci sunt facilis itaque non enim est!'
+    },
+    {
+        id:4,
+        image: app1,
+        title: 'App Development: Beginner to Advance',
         category: 'App',
         description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque ea, ab aperiam necessitatibus adipisci sunt facilis itaque non enim est!'
     },
     {
+        id:5,
+        image: ai1,
+        title: 'Play with Artificial Intelligence',
+        category: 'AI',
+        description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque ea, ab aperiam necessitatibus adipisci sunt facilis itaque non enim est!'
+    },
+    {
         id:6,
-        image: blog4,
-        title: 'Tips and tricks to write good code',
+        image: ai2,
+        title: 'AI with Python',
         category: 'AI',
         description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque ea, ab aperiam necessitatibus adipisci sunt facilis itaque non enim est!'
     }

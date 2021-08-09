@@ -8,7 +8,7 @@ function Header() {
     return (
         <div>
         <Navbar className="border-bottom p-3 mt-4  nav" bg="white" expand="lg">
-        <Navbar.Brand className="mx-5 logo" style={{color:'green'}}>CampTech</Navbar.Brand>
+        <Navbar.Brand className="mx-5 logo" style={{color:'green'}}>Camp<span style={{color:'darkgreen'}}>Tech</span></Navbar.Brand>
         <Navbar.Toggle className="border-0" aria-controls="navbar-toggle" />
         <Navbar.Collapse id="navbar-toggle">
           <Nav className="mx-4">
